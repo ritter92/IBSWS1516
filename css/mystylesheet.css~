@@ -4,7 +4,10 @@
       margin: auto;
   }
 
-div {
-
-	margin:auto;
+#centered {
+  padding:20px;
+  position:relative;
+  left:50%;
+  margin-left: -50%; /* Breite des Elemtens + Padding */
 }
+

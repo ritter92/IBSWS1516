@@ -4,10 +4,16 @@
       margin: auto;
   }
 
-#centered {
-  padding:20px;
-  position:relative;
-  left:50%;
-  margin-left: -170px; /* Breite des Elemtens + Padding */
+.newline {
+  padding: 50px 0;
 }
 
+.carousel {
+  margin-top: 50px;
+}
+
+.img-carousel,
+  .img-profile {
+  width: 300px;
+  height: 300px;
+}

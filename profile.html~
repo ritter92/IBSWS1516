@@ -50,12 +50,12 @@
 
 <!-- Website Content -->
 	<div class="container navbar-margin" style="background-image:url(pictures/profilbild.jpg);">
-	  <div class="row my-profile">
+	  <div class="row my-profile my-profile-heading-img">
             <div class="col-lg-2">
 	      <img class="img-profile thumbnail" src="pictures/profilbild_mini.png" alt="Profilbild">
             </div>
 	    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-	      <h2 Style="Top: 100px"><b>Florian Ritter</b></h2>
+	      <h2><b>Florian Ritter</b></h2>
 	    </div>
 	  </div>
 	</div>
@@ -69,7 +69,23 @@
               <h2 class="featurette-heading">Technische Hochschule Mittelhessen</h2>
               <ul>
 		<li>Student an der THM seit 2011</li>
+		<li>Fachbereich: MNI</li>
 		<li>Studiengang: IngenieurInformatik</li>
+		<p>Ich interessiere mich schon seit jungen jahren für die Informatik und habe in diesem Bereich meine Ausbildung gemacht. Vor dem Studium habe ich angefangen mich für die Robotik zu begeistern, woraufhin ich ein Studium an der THM-Friedberg in richtung Physikalische-Technik begonnen habe. Dieses habe ich jedoch abgebrochen um mich im bereich Ingenieurs Informatik noch mehr der Robotik widmen zu können. Dieses Studium macht seither sehr viel spaß und bietet viel abwechslung.</p>
+	      </ul>
+            </div>
+	  </div>
+        </div>
+	<div class="container">
+      	  <div class="row newline featurette content">
+            <div class="col-lg-3">
+              <img class="featurette-image img-responsive img-profile" src="pictures/interessen.png" alt="THM Logo">
+            </div>
+            <div class="col-lg-9">
+              <h2 class="featurette-heading">Meine Interessen und Tätigkeiten</h2>
+              <ul>
+		<li>Mitglied der aktiven Feuerwehr</li>
+		<li>Mitglied und Spieler des SV 1927 Harbach</li>
 	      </ul>
             </div>
 	  </div>

@@ -1,22 +1,38 @@
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 30%;
-      margin: auto;
+    width: 1440px;
+    height: 600px;
   }
+
+.middle {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: -webkit-center;
+}
+
+.wiki-logo {
+  color: green;
+  font-family: "sans-serif";
+}
 
 .newline {
   padding: 50px 0;
 }
 
 .mouseover:hover {
-  background-color: #3BAEFF;
+  background-color: #70CBFF;
+  transition: all 0.4s;
 }
 
 .navbar-margin {
   margin-top: 50px;
 }
 
-.img-carousel, {
+.img-carousel {
   width: 300px;
   height: 300px;
 }
@@ -25,6 +41,11 @@
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.20);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.20);
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.20);
+}
+
+.carousel-caption h2, 
+  .carousel-caption p {
+    text-shadow: 1px 2px black
 }
 
 footer ul li:first-child {
@@ -65,19 +86,44 @@ footer #made-in {
 
 .my-profile h2 {
   color: white;
-  max-height: 500px;
   font-family: Arial;
-}
-
-.my-profile img {
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
 }
   
 .img-profile {
   width: 170px;
   height: 170px;
+}
+
+.my-profile-heading-img {
+  margin-top: 330px;
+}
+
+@media (max-width: 1200px) {
+  .my-profile h2 {
+    color: white;
+    font-family: Arial;
+    margin-left: 190px;
+    margin-top: -66px;
+    position: absolute;
+  }
+
+  .my-profile img {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    margin-top: -80px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-profile img {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.50);
+    margin-top: -20px;
+    position: absolute;
+  }
 }
 
 

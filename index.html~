@@ -39,6 +39,7 @@
 	      <ul class="nav navbar-nav">
 		<li class="active"><a href="index.html">Start <span class="sr-only">(current)</span></a></li>
 		<li><a href="Wiki.html">Wiki</a></li>
+		<li><a href="profile.html">Profil</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 		<li><a href="Impressum.html">Impressum</a></li>
@@ -48,7 +49,7 @@
 	</nav>
 
 <!-- Carousel slide -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide navbar-margin" data-ride="carousel">
 	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
 	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -88,47 +89,79 @@
 	</div>
 
 <!-- Website Content -->
-	<div class="container newline">
-	  <div class="text-center">	  
-	    <p>Florian</p>
-	    <img class="img-profile" src="pictures/blank-profile.png">
-	  </div>
-	</div>
-
-      	<div class="row featurette content">
-          <div class="col-md-5 col-md-push-4 col-sm-12 text-center">
-            <h2 class="featurette-heading">Florian Ritter</h2>
-            <p class="lead ">Beschreibung</p>
-          </div>
-          <div class="col-md-5 col-md-pull-7 col-sm-12">
-            <img class="featurette-image img-responsive center-block img-carousel" src="pictures/blank-profile.png">
-          </div>
-        </div>
-
 	<div class="container text-center">
 	  <div class="row">
-	    <div class="col-lg-4 newline">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	    </div>
-	    <div class="col-lg-4 newline">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	    </div>
-	    <div class="col-lg-4 newline">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	    </div>
+	    <a href="https://www.codecademy.com/users/frtr74/achievements" target="_blank">
+	      <div class="col-lg-4 newline">
+		<img class="img-circle" src="pictures/codecademy_archievments.png" width="140" height="140" alt="archievments">
+	        <h2>Meine Badges</h2>
+	      </div>
+	    </a>
+	    <a href="https://github.com/ritter92/IBSWS1516" target="_blank">
+	      <div class="col-lg-4 newline">
+	        <img class="img-circle" src="pictures/github_logo.png" width="140" height="140" alt="GitHub">
+	        <h2>GitHub</h2>
+	      </div>
+	    </a>
+	    <a href="https://www.cloudcontrol.com/">
+	      <div class="col-lg-4 newline">
+	      	<img class="img-circle" src="pictures/cctrl_logo.png" width="140" height="140">
+	        <h2>cloudControl</h2>
+	      </div>
+	    </a>
 	  </div>
 	  <div class="row">
 	    <div class="col-lg-4 newline">
 	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
+	      <h2></h2>
+	      <p></p>
 	    </div>
 	    <div class="col-lg-4 newline">
 	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
+	      <h2></h2>
+	      <p></p>
 	    </div>
 	    <div class="col-lg-4 newline">
 	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
+	      <h2></h2>
+	      <p></p>
 	    </div>
 	  </div>
 	</div>
+
+<!-- footer -->
+	<footer class="panel-footer center">
+	  <div class="container">
+	    <nav class="row">
+	      <ul class="col-sm-3 cctrl-callout">
+	        <li>Content</li>
+		<li>
+		  <a target="_self" href="Wiki.html">Wikipedia Suche</a>
+		</li>
+		<li>
+		  <a target="_self" href="profile.html">Profil Seite</a>
+		</li>
+	      </ul>
+	      <ul class="col-sm-3 cctrl-callout">
+	        <li>Partner Programs</li>
+		<li>
+		  <a target="_self" href="http://getbootstrap.com/">Bootstraps</a>
+		</li>
+	      </ul>
+	      <ul class="col-sm-3 cctrl-callout">
+	        <li>Legal</li>
+		<li>
+		  <a target="_self" href="Impressum.html">Impressum</a>
+		</li>
+	      </ul>
+	    </nav>
+	    <div id="made-in" class="row margin-top-s">
+        <p>
+            MyWebsite mit <span class="glyphicon glyphicon-heart"></span> gestaltet in Harbach, Deutschland
+        </p>
+    </div>
+	  </div>
+	</footer>
 
 
 <!-- JavaScript -->

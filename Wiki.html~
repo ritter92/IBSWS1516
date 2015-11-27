@@ -30,7 +30,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand"><img src="pictures/logo.jpg" width="50" height="25"></a>
+	      <a class="navbar-brand"><img src="pictures/logo.png" width="50" height="25"></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,6 +38,7 @@
 	      <ul class="nav navbar-nav">
 		<li><a href="index.html">Start <span class="sr-only">(current)</span></a></li>
 		<li class="active"><a href="Wiki.html">Wiki</a></li>
+		<li><a href="profile.html">Profil</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 		<li><a href="Impressum.html">Impressum</a></li>

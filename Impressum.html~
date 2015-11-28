@@ -62,6 +62,7 @@
 	  <tr><td>E-Mail:</td>
 	  <td>florian.ritter@mni.thm.de</td>
 	</tr></table>
+	<p></p>
 	
 	<!-- Trigger the modal with a button -->
 	<a href="" data-toggle="modal" data-target="#datenschutz">Datenschutzerklärung</a>

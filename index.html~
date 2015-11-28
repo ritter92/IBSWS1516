@@ -167,10 +167,10 @@
 		  <a target="_self" href="Impressum.html">Impressum</a>
 		</li>
 		<li>
-		  <a href="datenschutz.html" data-toggle="modal" data-target="#datenschutz">Datenschutzerklärung</a>
+		  <a href="" data-toggle="modal" data-target="#datenschutz">Datenschutzerklärung</a>
 		</li>
 		<li>
-		  <a href="datenschutz.html" data-toggle="modal" data-target="#disclaimer">Haftungsausschluss</a>
+		  <a href="" data-toggle="modal" data-target="#disclaimer">Haftungsausschluss</a>
 		</li>
 	      </ul>
 	    </nav>

@@ -31,7 +31,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand"><img src="pictures/logo.png" alt="Logo" width="50" height="25"></a>
+	      <a class="navbar-brand" href="index.html"><img src="pictures/logo.png" alt="Logo" width="50" height="25"></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +51,10 @@
 <!-- Website Content -->
 	<div class="container navbar-margin" style="background-image:url(pictures/profilbild.jpg);">
 	  <div class="row my-profile my-profile-heading-img">
-            <div class="col-lg-2">
+	      <span class="btn btn-default btn-file">
+    	  	Browse <input type="file">
+	      </span>
+	    <div class="col-lg-2">
 	      <img class="img-profile thumbnail" src="pictures/profilbild_mini.png" alt="Profilbild">
             </div>
 	    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">

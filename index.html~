@@ -180,9 +180,8 @@
               </p>
             </div>
 	  </div>
-	</footer>
-
-
+	</footer>	
+	
 	<!-- Modal Datenschutzerklärung -->
 	<div class="modal fade" id="datenschutz" role="dialog">
 	  <div class="modal-dialog">

@@ -38,8 +38,8 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 		<li><a href="index.html">Start <span class="sr-only">(current)</span></a></li>
-		<li class="active"><a href="Wiki.html">Wiki</a></li>
 		<li><a href="profile.html">Profil</a></li>
+		<li class="active"><a href="Wiki.html">Wiki</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 		<li><a href="Impressum.html">Impressum</a></li>
@@ -49,7 +49,7 @@
 	</nav>
 <!-- content -->
 	<div class="middle">
-	  <h1 class="wiki-logo">Wiki Suche</h1>
+	  <h1 class="wiki-logo"><b>Wiki Suche</b></h1>
 	  <form action="http://de.wikipedia.org/wiki" method="post" target="_blank" name="frmWiki">
 	    <table>
 	      <tbody>

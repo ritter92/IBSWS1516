@@ -38,11 +38,11 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 		<li class="active"><a href="index.html">Start <span class="sr-only">(current)</span></a></li>
-		<li><a href="Wiki.html">Wiki</a></li>
-		<li><a href="profile.html">Profil</a></li>
+		<li class="navbar-fade"><a href="profile.html">Profil</a></li>
+		<li class="navbar-fade"><a href="Wiki.html">Wiki</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
-		<li><a href="Impressum.html">Impressum</a></li>
+		<li class="navbar-fade"><a href="Impressum.html">Impressum</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -83,11 +83,6 @@
 	      </div>
 	    </div>
 
-	    <div class="item">
-	      <img src="pictures/Make-a-Website.svg" alt="Chania">
-	    </div> 
-	  </div>
-
 	  <!-- Left and right controls -->
 	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -104,39 +99,45 @@
 	  <div class="row">
 	    <a href="https://www.codecademy.com/users/frtr74/achievements" target="_blank">
 	      <div class="col-lg-4 newline mouseover">
-		<img class="img-circle" src="pictures/codecademy_archievments.png" width="140" height="140" alt="archievments">
+		<img class="img-circle" src="pictures/codecademy_archievments.png" alt="archievments">
 	        <h2>Meine Badges</h2>
 	      </div>
 	    </a>
 	    <a href="https://github.com/ritter92/IBSWS1516" target="_blank">
 	      <div class="col-lg-4 newline mouseover">
-	        <img class="img-circle" src="pictures/github_logo.png" width="140" height="140" alt="GitHub">
+	        <img class="img-circle" src="pictures/github_logo.png" alt="GitHub">
 	        <h2>GitHub</h2>
 	      </div>
 	    </a>
-	    <a href="https://www.cloudcontrol.com/">
+	    <a href="https://www.cloudcontrol.com/" target="_blank">
 	      <div class="col-lg-4 newline mouseover">
-	      	<img class="img-circle" src="pictures/cctrl_logo.png" width="140" height="140">
+	      	<img class="img-circle" src="pictures/cctrl_logo.png" alt="CloudControl">
 	        <h2>cloudControl</h2>
 	      </div>
 	    </a>
 	  </div>
 	  <div class="row">
-	    <div class="col-lg-4 newline mouseover">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	      <h2></h2>
-	      <p></p>
-	    </div>
-	    <div class="col-lg-4 newline mouseover">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	      <h2></h2>
-	      <p></p>
-	    </div>
-	    <div class="col-lg-4 newline mouseover">
-	      <img class="img-circle" src="pictures/blank-profile.png" width="140" height="140">
-	      <h2></h2>
-	      <p></p>
-	    </div>
+	    <a href="Wiki.html">
+	      <div class="col-lg-4 newline mouseover">
+	        <img class="img-circle" src="pictures/wiki_logo.png" alt="Wikipedia Suche">
+	        <h2>Wikipedia Suche</h2>
+	        <p></p>
+	      </div>
+	    </a>
+	    <a href="profile.html">
+	      <div class="col-lg-4 newline mouseover">
+	        <img class="img-circle" src="pictures/profilbild_mini.png" alt="Profil Seite">
+	        <h2>Mein Profil</h2>
+	        <p></p>
+	      </div>
+	    </a>
+	    <a href="Wiki.html">
+	      <div class="col-lg-4 newline mouseover">
+	        <img class="img-circle" src="pictures/*.png" alt="Pull Request">
+	        <h2>GitHub Pull Request</h2>
+	        <p></p>
+	      </div>
+	    </a>
 	  </div>
 	</div>
 
@@ -147,10 +148,10 @@
 	      <ul class="col-sm-3 cctrl-callout">
 	        <li>Content</li>
 		<li>
-		  <a target="_self" href="Wiki.html">Wikipedia Suche</a>
+		  <a target="_self" href="profile.html">Profil Seite</a>
 		</li>
 		<li>
-		  <a target="_self" href="profile.html">Profil Seite</a>
+		  <a target="_self" href="Wiki.html">Wikipedia Suche</a>
 		</li>
 	      </ul>
 	      <ul class="col-sm-3 cctrl-callout">

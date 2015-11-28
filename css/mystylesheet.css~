@@ -1,6 +1,6 @@
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-    width: 1440px;
+    width: 1920px;
     height: 600px;
   }
 
@@ -14,9 +14,14 @@
     text-align: -webkit-center;
 }
 
+.img-circle {
+  width: 140px;
+  height: 140px;
+}
+
 .wiki-logo {
   color: green;
-  font-family: "sans-serif";
+  font-family: "Times New Roman";
 }
 
 .newline {
@@ -30,6 +35,11 @@
 
 .navbar-margin {
   margin-top: 50px;
+}
+
+.navbar-fade:hover{
+  background-color: #EFEFEF;
+  transition: all 0.4s;
 }
 
 .img-carousel {

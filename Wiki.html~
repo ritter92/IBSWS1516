@@ -55,8 +55,11 @@
 	      <tbody>
 	        <tr>
 	          <td>
+		    <form action="#" id="searchwiki">
+		      <label for="searchwiki"> Suchbegriff eingeben</label>
 		    <input maxlength="255" size="25" name="xsearch">
 		    <input value="de" name="hl" type="hidden">
+		    </form>
 		  </td>
 		  <td>
 		    <input onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;" value="Search" name="btnG" type="submit">

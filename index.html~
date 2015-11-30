@@ -193,7 +193,6 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Datenschutzerklärung</h4>
 	      </div>
 	      <div class="modal-body">
 	        <h1>Datenschutzerklärung:</h1>
@@ -214,7 +213,6 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Haftungsausschluss</h4>
 	      </div>
 	      <div class="modal-body">
 		<h1>Haftungsausschluss (Disclaimer)</h1>

@@ -151,7 +151,7 @@ footer #made-in {
 }
 
 @media (max-width: 1200px) {
-  .my-profile h2 {
+  .my-profile h1 {
     color: white;
     font-family: Arial;
     margin-left: 190px;

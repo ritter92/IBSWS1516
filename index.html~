@@ -134,16 +134,16 @@
 	    </a>
 	  </div>
 	  <div class="row">
-	    <a href="Wiki.html">
+	    <a href="https://github.com/ritter92/IBSWS1516/pull/1">
 	      <div class="col-lg-6 newline mouseover">
-	        <img class="img-circle" src="pictures/*.png" alt="Pull Request">
+	        <img class="img-circle" src="pictures/pull.png" alt="Pull Request frtr74">
 	        <h2>GitHub Pull Request my Website</h2>
 	        <p></p>
 	      </div>
 	    </a>
-	    <a href="Wiki.html">
+	    <a href="https://github.com/KevinSchmitt91/ksmt33/pull/1">
 	      <div class="col-lg-6 newline mouseover">
-	        <img class="img-circle" src="pictures/*.png" alt="Pull Request">
+	        <img class="img-circle" src="pictures/pull.png" alt="Pull Request ksmt33">
 	        <h2>GitHub Pull Request Reviewer</h2>
 	        <p></p>
 	      </div>

@@ -101,7 +101,7 @@ footer #made-in {
 .my-profile h1 {
   color: white;
   font-family: Arial;
-  text-shadow: 1px 2px black
+  text-shadow: 1px 2px #000000;
 }
   
 .img-profile {

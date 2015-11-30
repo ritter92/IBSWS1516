@@ -68,7 +68,7 @@
 	    </div>
 
 	    <div class="item">
-	      <img src="pictures/thm.png" alt="Technische Hochschule Mittelhessen">
+	      <img src="pictures/thm.png" alt="THM Platz">
 	      <div class="carousel-caption">
 		<h2>Technische Hochschule Mittelhessen</h2>
 		<p>Giessen</p>
@@ -152,10 +152,10 @@
 	      <ul class="col-sm-3 cctrl-callout">
 	        <li>Content</li>
 		<li>
-		  <a target="_self" href="profile.html">Profil Seite</a>
+		  <a target="_self" href="profile.html">Profil</a>
 		</li>
 		<li>
-		  <a target="_self" href="Wiki.html">Wikipedia Suche</a>
+		  <a target="_self" href="Wiki.html">Wikipedia</a>
 		</li>
 	      </ul>
 	      <ul class="col-sm-3 cctrl-callout">

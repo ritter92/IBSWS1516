@@ -98,7 +98,7 @@ footer #made-in {
     border-left: 4px solid #999;
 }
 
-.my-profile h2 {
+.my-profile h1 {
   color: white;
   font-family: Arial;
   text-shadow: 1px 2px black

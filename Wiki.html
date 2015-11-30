@@ -55,8 +55,11 @@
 	      <tbody>
 	        <tr>
 	          <td>
-		    <input maxlength="255" size="25" name="xsearch">
-		    <input value="de" name="hl" type="hidden">
+		    <form action="demo_form.asp">
+ 		      <label for="wikisearch">Suchbegriff</label>
+		      <input maxlength="255" size="25" name="xsearch" id="wikisearch">
+		      <input value="de" name="hl" type="hidden" id="wikisearch">
+		    </form>
 		  </td>
 		  <td>
 		    <input onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;" value="Search" name="btnG" type="submit">

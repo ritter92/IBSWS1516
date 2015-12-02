@@ -54,38 +54,17 @@
 	    <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png" border="0" alt="wikipedia - die freie enzyklopädie" align="middle" width="240" height="60">
           </a> 
 	  <br /><br />
+	  <h1 Style="color: #337ab7;">Wikipedia Suche</h1>
 	  <form name="search" method="post" action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank">
             <label for="wikisearch">Suchfeld</label>
   	    <div align="middle">
-    	      <input type="text" name="search" size="30" />
+    	      <input type="text" name="search" size="30" id="wikisearch"/>
     	      <br />
-    	      <input class="btn btn-primary btn-mystyle" type="submit" name="go" value="Artikel" id="wikisearch"/>
-    	      <input class="btn btn-primary btn-mystyle" type="submit" name="fulltext" value="Suche" id="wikisearch"/>
+    	      <input class="btn btn-primary btn-mystyle" type="submit" name="go" value="Artikel" />
+    	      <input class="btn btn-primary btn-mystyle" type="submit" name="fulltext" value="Suche" />
   	    </div>
 	  </form>
 	</div>
-
-
-<!--
-<form action="http://de.wikipedia.org/wiki" method="post" target="_blank" name="frmWiki">
-	    <table>
-	      <tbody>
-	        <tr>
-	          <td>
-		    <form action="demo_form.asp">
- 		      <label for="wikisearch">Suchfeld</label>
-		      <input maxlength="255" size="25" name="xsearch" id="wikisearch">
-		      <input value="de" name="hl" type="hidden" id="wikisearch">
-		    </form>
-		  </td>
-		  <td>
-		    <input onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;" value="Search" name="btnG" type="submit">
-		  </td>
-	        </tr>
-	      </tbody>
-            </table>
-	  </form>
--->
 
 
 

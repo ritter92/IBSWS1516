@@ -59,8 +59,8 @@
   	    <div align="middle">
     	      <input type="text" name="search" size="30" />
     	      <br />
-    	      <input class="btn btn-primary" type="submit" name="go" value="Artikel" />
-    	      <input type="submit" name="fulltext" value="Suche" />
+    	      <input class="btn btn-primary btn-mystyle" type="submit" name="go" value="Artikel" />
+    	      <input class="btn btn-primary btn-mystyle" type="submit" name="fulltext" value="Suche" />
   	    </div>
 	  </form>
 	</div>

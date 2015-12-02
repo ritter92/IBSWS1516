@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>MyWebsite FR</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
     <link href="css/mystylesheet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -79,7 +80,7 @@
 	<div class="container">
       	  <div class="row newline featurette content">
             <div class="col-lg-3">
-              <img class="featurette-image img-responsive img-profile" src="pictures/interessen.png" alt="THM Logo">
+              <img class="featurette-image img-responsive img-profile" src="pictures/interessen.png" alt="interests">
             </div>
             <div class="col-lg-9">
               <h2 class="featurette-heading">Meine Interessen und Tätigkeiten</h2>
